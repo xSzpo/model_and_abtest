@@ -1,0 +1,21 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+notebook = "==6.0.3"
+pandas = "==1.0.1"
+pandasql = "*"
+scikit-learn = "==0.22.2"
+seaborn = "*"
+jupyter = "*"
+feather-format = "*"
+lightgbm = "*"
+category-encoders = "*"
+scikit-plot = "*"
+
+[requires]
+python_version = "3.7"
